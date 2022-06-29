@@ -1,10 +1,7 @@
 #include <stdio.h>
 /**
- * description for my code 
- * i tried to write a program that can print this
- * messgage
- * Programming is like building a multilingual puzzle
- * by using this function puts
+ *Description: main - Prints out a string to stdout.
+ *Return: 0 if success.
  */
 int main(void)
 {
