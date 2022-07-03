@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main -Prints the alpha in lower and uppercase
-* return : always 0 (success)
+* main - Prints the alphabet.
+* Return: Always 0 (Success)
 */
 int main(void)
 {
