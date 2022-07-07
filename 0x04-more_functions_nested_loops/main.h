@@ -1,3 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef _main_H
+#define _main_H_
 int _isupper(int c)
