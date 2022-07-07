@@ -1,9 +1,8 @@
 #include "main.h"
 /**
-* _isupper - define if a character is uppercase
-* Description: Prints the alphabet with _putchar
-* @c: charater
-* Return: void
+* _isupper - checks if parameter is an uppercase character.
+* @c: input character.
+* Return: 1 if is an uppercase character, 0 in other case.
 */
 int _isupper(int c)
 {
