@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_square -prints hashes squares
- * @size of the square.
- * return : no return.
+ * print_square - prints hashes squares.
+ * @size: size of the square.
+ *Return: no return.
  */
 void print_square(int size)
 {
