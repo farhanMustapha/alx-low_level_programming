@@ -4,7 +4,7 @@
  * @a: first integer
  * @b: second integer
  * @c: third integer
- * Retourn: largest number
+ * Return: largest number
  */
 int largets_number(int a, int b, int c)
 {
