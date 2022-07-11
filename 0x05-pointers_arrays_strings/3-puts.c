@@ -7,5 +7,9 @@
  */
 void _puts(char *str)
 {
-printf("the string is : %d\n ", *str);
+for(; *str != '\0'; str++)
+{
+_putchar(*str);
+}
+_putchar('\n');
 }
