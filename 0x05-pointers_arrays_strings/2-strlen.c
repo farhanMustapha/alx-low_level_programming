@@ -2,5 +2,7 @@
 #include "main.h"
 int _strlen(char *s)
 {
-return *s.length;
+int index;
+for (i = 0; s[i] != '\0'; index++);
+return (i);
 }
