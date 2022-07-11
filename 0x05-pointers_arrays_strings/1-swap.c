@@ -5,5 +5,5 @@ int x;
 x = a,
 a = b;
 b = x;
-printf("value %d\n ,%d\n ", a ,b);
+printf("value %d\n ,%d\n ", a, b);
 }
