@@ -7,5 +7,5 @@
  */
 void _puts(char *str)
 {
-printf("the string is : %d\n ", str);
+printf("the string is : %d\n ", *str);
 }
