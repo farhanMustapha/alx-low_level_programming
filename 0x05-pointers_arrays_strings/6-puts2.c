@@ -11,6 +11,7 @@ void puts2(char *str)
 int i;
 for (i = 0 ; i <= sizeof(*str); i++)
 {
+if (i % 2 == 0) 
 printf("caractere are : %d\n ", str[i]);
 }
 }
