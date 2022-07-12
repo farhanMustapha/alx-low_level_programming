@@ -9,10 +9,20 @@
  */
 void print_array(int *a, int n)
 {
-int arr[n];
 int i;
-for (i = 0; i <= sizeof(arr[n]); i++)
+if (n > 0)
 {
-printf("array element are : %d\n ", arr[i]);
+for (i = 0; n > i; i++)
+{
+if (i != n - 1)
+{
+printf("%d, ", a[i]);
 }
+else
+{
+printf("%d", a[i]);
+}
+}
+}
+printf("\n");
 }
