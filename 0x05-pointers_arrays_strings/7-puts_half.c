@@ -24,9 +24,10 @@ n++;
 else
 {
 n = (i / 2);
-while (str[n] != '\0'){
+while (str[n] != '\0')
+{
 putchar(str[n]);
-n++;	
+n++;
 }
 }
 putchar('\n');
