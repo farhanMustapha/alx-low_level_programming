@@ -8,6 +8,16 @@
  */
 char *_strcat(char *dest, char *src)
 {
-char concat = dest + src;
-return (concat);
+int aa = 0, i;
+while (dest[aa])
+{
+aa++;
+}
+for (i = 0; src[i] != 0; i++)
+{
+dest[aa] = src[i];
+aa++;
+}
+dest[aa] = '\0';
+return (dest);
 }
